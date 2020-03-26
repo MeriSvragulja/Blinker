@@ -7,9 +7,7 @@
 void* ReadInput(void* pt)
 {
 	char* ch = (char*)pt;
-	printf("Character ch is %c\n", *ch);
 	*ch = getch();
-	printf("Character ch is now %c\n", *ch);
 
 	return NULL;
 }
@@ -33,7 +31,6 @@ int main()
 		system("cls");
 
 		numberOfBlinks++;
-		printf("character in main is %c\n", ch);
 	}
 
 	printf("Hit cancel.\n");
